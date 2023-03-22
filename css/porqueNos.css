@@ -1,0 +1,58 @@
+.porqueNos .center{
+    max-width: 1360px;
+}
+.porqueNos .center{
+    flex-direction: column;
+}
+.porqueNos h2{
+    color: #000;
+}
+.porqueNos p {
+    color: rgba(0, 0, 0, 0.7);
+}
+section.porqueNos{
+padding: 40px 0;
+background-color: #FBFCFE;
+}
+section.porqueNos > .center > h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+section.porqueNos > .center > p {
+    font-size: 1rem;
+    margin-top: 5px;
+    text-align: center;
+}
+.diferenciais{
+    display: flex;
+    margin-top: 50px;
+}
+.boxDiferenciais{
+    box-shadow:0px 20px 40px #2426721C;
+    margin-right: 2%;
+    width: 31%;
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+.boxDiferenciais h3{
+    color: black;
+    margin: 20px 0;
+}
+.boxDiferenciais p {
+    color: #7E92AC;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:776px) {
+    .boxDiferenciais{
+        margin-right: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .diferenciais{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}

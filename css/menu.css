@@ -1,0 +1,32 @@
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-menu{
+    width: 50%;
+}
+.itensMenu{
+    width: 50%;
+    text-align: right;
+}
+.itensMenu a {
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    color: #FFFFFF;
+}
+.itensMenu a:hover{
+    border-bottom: solid #FFDD33;
+}
+.contactBtn{
+    background-color: #0F3FD3;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.itensMenu a.contactBtn:hover{
+    border: 0;
+}
