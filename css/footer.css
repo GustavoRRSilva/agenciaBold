@@ -1,0 +1,13 @@
+.footer{
+    background-color: #255AFF;
+    padding: 20px;
+}
+
+@media screen and (max-width:776px) {
+    .itensMenu{
+        display: none;
+    }
+    .logoMenu {
+        text-align: center;
+    }
+}

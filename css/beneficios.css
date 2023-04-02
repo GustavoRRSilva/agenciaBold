@@ -1,53 +1,54 @@
+.infosBeneficio h2,
+.beneficio p {
+  color: #000;
+}
+.infosBeneficio p {
+  font-size: 1.2rem;
+}
+.infosBeneficio {
+  padding: 20px;
+}
+.beneficios {
+  padding: 30px 0;
+}
+.beneficio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infosBeneficio h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3.4rem;
+}
+.infosBeneficio a {
+  background-color: #255aff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 25px;
+  border-radius: 11px;
+}
+.infosBeneficio,
+.imgBeneficios {
+  width: 50%;
+}
+.img {
+  width: 100%;
+}
+.centro {
+  max-width: 1360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ultimo {
+  margin-bottom: 40px;
+}
 
-.infosBeneficio h2,.beneficio p{
-    color: #000;
-}
-.infosBeneficio p{
-    font-size: 1.2rem;
-}
-.infosBeneficio{
-    padding: 20px;
-
-}
-.beneficios{
-    padding: 30px 0;
-}
-.beneficio{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.infosBeneficio h2{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 3.4rem;
-}
-.infosBeneficio a{
-    background-color: #255AFF;
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: bold;
-    padding: 25px;
-    border-radius: 11px;
-}
-.infosBeneficio,.imgBeneficios{
-    width: 50%;
-}
-.img{
+@media screen and (max-width: 1000px) {
+  .infosBeneficio,
+  .imgBeneficios {
     width: 100%;
-}
-.centro{
-    max-width: 1360px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.ultimo{
-    margin-bottom: 40px;
-}
-
-@media screen and (max-width:1000px) {
-    .infosBeneficio,.imgBeneficios{
-        width: 100%;
-    }
+  }
 }

@@ -1,38 +1,37 @@
-.cta{
-    background-image: url("/assets/bannerImg.svg");
-    padding: 40px 10px;
-    min-height: 200px;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+.cta {
+  background-image: url("/assets/bannerImg.svg");
+  padding: 40px 10px;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
-
 .cta h2,
 .cta h4 {
-    font-weight: normal;
-    margin: 10px 0;
+  font-weight: normal;
+  margin: 10px 0;
 }
-.cta h2{
-    font-size: 3rem;
+.cta h2 {
+  font-size: 3rem;
 }
-.cta h4{
-    font-size: 1.3rem;
+.cta h4 {
+  font-size: 1.3rem;
 }
 .cta a {
-    display: inline-block;
-    background-color: #FFDD33;
-    padding: 25px;
-    border-radius: 5px;
-    color: #0F3FD3;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.3rem;
-    margin-top: 10px;
+  display: inline-block;
+  background-color: #ffdd33;
+  padding: 25px;
+  border-radius: 5px;
+  color: #0f3fd3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 10px;
 }
-.infos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }

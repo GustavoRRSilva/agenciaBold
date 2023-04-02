@@ -1,0 +1,33 @@
+.contato{
+    padding: 20px 0;
+}
+.contato h2{
+    color: #000;
+    font-size: 3rem;
+    text-align: center;
+}
+.form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+.form input,.form textarea{
+    padding: 10px;
+    background-color: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    outline: 0;
+    border-radius: 10px;
+}
+.form input::placeholder,.form textarea::placeholder{
+    color: #7E92AC;
+}
+.form input[type = submit]{
+   background-color: #255AFF;
+   padding: 15px 0;
+   font-size: 1.3rem;
+}
