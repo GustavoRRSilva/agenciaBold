@@ -1,0 +1,38 @@
+.depoimentos{
+    background-color: #FBFCFE;
+    padding: 30px 0;
+}
+.tituloDepoimento{
+    padding: 20px 0;
+    font-size: 3rem;
+}
+.depoimento{
+    background-color: #FFFFFF;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 20px 50px #70707016;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px 30px;
+    gap: 6px;
+}
+.depoimentos h2,.depoimento p{
+    color: #000000;
+    text-align: center;
+    font-weight: normal;
+}
+.depoimento p {
+    height: 160px;
+}
+.depoimentoPessoas{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.depoimento h3{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+}

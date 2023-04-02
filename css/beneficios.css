@@ -9,6 +9,9 @@
     padding: 20px;
 
 }
+.beneficios{
+    padding: 30px 0;
+}
 .beneficio{
     display: flex;
     align-items: center;
